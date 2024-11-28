@@ -30,7 +30,7 @@ const Footer: React.FC<FooterProps> = ({
             We are dedicated to creating innovative solutions that address
             today's challenges while shaping a smarter, more connected future.
           </p>
-          <div className="flex space-x-4 justify-start items-start">
+          {/* <div className="flex space-x-4 justify-start items-start">
             <a
               href="#"
               className="hover:text-blue-200 text-white"
@@ -66,7 +66,7 @@ const Footer: React.FC<FooterProps> = ({
             >
               <i className="fab fa-youtube"></i>
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Navigation Links */}
