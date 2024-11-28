@@ -13,12 +13,20 @@ const HeroSection: React.FC = () => {
         marginTop: "70px",
       }}
     >
-      <h1 className="text-5xl font-extrabold text-gray-800 mt-20">
+      <h1
+        className="text-5xl font-extrabold text-gray-800 mt-20"
+        style={{ fontWeight: "900" }}
+      >
         Welcome To{" "}
-        <span className="text-blue-600 underline decoration-wavy">HMA</span>
+        <span className="text-blue-600 underline decoration-wavy">
+          HMATECH Smart
+        </span>
       </h1>
-      <h2 className="text-5xl font-extrabold text-gray-800 mt-2">
-        Technologies
+      <h2
+        className="text-5xl font-extrabold text-gray-800 mt-2"
+        style={{ fontWeight: "900" }}
+      >
+        for information technology
       </h2>
       <p
         className="text-gray-600 text-lg max-w-2xl mx-auto font-sans"

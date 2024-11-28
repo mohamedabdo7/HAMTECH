@@ -114,18 +114,18 @@ const Footer: React.FC<FooterProps> = ({
           <ul className="space-y-4">
             <li className="flex items-start space-x-2">
               <i className="fas fa-envelope mt-1 text-blue-200"></i>
-              <span className="text-sm">contact@company.com</span>
+              <span className="text-sm">vision@hmatechinvestment.com</span>
             </li>
             <li className="flex items-start space-x-2">
               <i className="fas fa-phone mt-1 text-blue-200"></i>
-              <span className="text-sm">(414) 687 - 5892</span>
+              <span className="text-sm">+966553939759</span>
             </li>
             <li className="flex items-start space-x-2">
               <i className="fas fa-map-marker-alt mt-1 text-blue-200"></i>
               <span className="text-sm">
-                794 McAllister St
+                Salim Ibn Abi Bakr Shaikan St.
                 <br />
-                San Francisco, 94102
+                West Umm Al-Hamam Dist -Riyadh - Saudi Arabia
               </span>
             </li>
           </ul>

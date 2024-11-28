@@ -144,11 +144,15 @@ const ContactUs: FC = () => {
                     <span className="block font-semibold text-gray-700">
                       Email
                     </span>
-                    <span className="text-gray-600">help@company.sa</span>
+                    <span className="text-gray-600">
+                      vision@hmatechinvestment.com
+                    </span>
                   </div>
                 </div>
                 <button
-                  onClick={() => copyToClipboard("help@company.sa")}
+                  onClick={() =>
+                    copyToClipboard("vision@hmatechinvestment.com")
+                  }
                   className="text-blue-600 hover:text-blue-800"
                 >
                   <i className="fas fa-copy"></i>
