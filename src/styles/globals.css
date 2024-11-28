@@ -1,0 +1,224 @@
+/* Import Google Fonts */
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* CSS Variables for Fonts and Colors */
+:root {
+  --font-primary: "Nunito", sans-serif;
+  --font-secondary: "Arial", sans-serif;
+  --color-primary: #1d4ed8; /* Tailwind's blue-600 */
+  --color-black: #000000;
+  --color-JetBlack: #231f20;
+  --color-dark-gray: #535862;
+  --color-secondary: #64748b; /* Tailwind's gray-500 */
+  --color-light: #f8fafc; /* Tailwind's gray-50 */
+  --color-dark: #1e293b; /* Tailwind's gray-800 */
+  --color-accent: #e11d48; /* Tailwind's red-600 */
+  --color-deep-blue: #232b61; /* New color variable */
+  --color-custom-blue: #3f67b1; /* New custom blue */
+  --color-dark-charcoal: #4a4a4a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-light); /* Track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary); /* Scrollbar thumb color */
+  border-radius: 2px; /* Rounded edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-accent); /* Change color on hover */
+}
+
+/* For Firefox (Custom Scrollbars) */
+
+/* Global Body Styling */
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Default Spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Anchor Tags */
+a {
+  text-decoration: none;
+  /* color: var(--color-primary); */
+  transition: color 0.3s ease, all 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-accent); /* Matches hover effect for links */
+}
+
+/* Buttons */
+button {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.375rem;
+  /* background-color: var(--color-primary); */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  /* background-color: var(--color-accent); */
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+  color: var(--color-dark);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Paragraphs */
+p {
+  font-family: var(--font-secondary);
+  margin-bottom: 1rem;
+  color: var(--color-secondary);
+  line-height: 1.8;
+}
+
+/* Lists */
+/* ul,
+ol {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+} */
+
+/* li {
+  margin-bottom: 0.5rem;
+} */
+
+/* Forms */
+input,
+textarea {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid var(--color-secondary);
+  border-radius: 0.375rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px var(--color-primary);
+}
+
+/* Section Styling */
+section {
+  padding: 4rem 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Flex Utilities */
+.flex {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+/* Grid Utilities */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
