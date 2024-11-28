@@ -4,12 +4,13 @@ import { hero } from "../assets/images"; // Assuming your SVG is in the assets f
 const HeroSection: React.FC = () => {
   return (
     <div
-      className="relative mx-auto text-center  z-10 bg-cover bg-center flex flex-col items-center justify-center"
+      className="relative mx-auto text-center z-10 bg-cover bg-center flex flex-col items-center justify-center"
       style={{
         backgroundImage: `url(${hero})`, // Reference the external SVG
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh",
+        marginTop: "70px",
       }}
     >
       <h1 className="text-5xl font-extrabold text-gray-800">
