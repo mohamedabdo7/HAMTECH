@@ -27,7 +27,8 @@ const Footer: React.FC<FooterProps> = ({
         <div className="space-y-4">
           <img src={footerLogo} alt="HAM Tech Logo" className="w-24" />
           <p className="text-sm text-white">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam.
+            We are dedicated to creating innovative solutions that address
+            today's challenges while shaping a smarter, more connected future.
           </p>
           <div className="flex space-x-4 justify-start items-start">
             <a
@@ -135,7 +136,7 @@ const Footer: React.FC<FooterProps> = ({
 
       {/* Footer Bottom */}
       <div className="container  mx-auto flex justify-between text-sm">
-        <span>Copyright © HAM Tech</span>
+        <span>Copyright © HMA Tech</span>
         <span>All Rights Reserved.</span>
       </div>
     </footer>

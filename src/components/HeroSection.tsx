@@ -13,16 +13,19 @@ const HeroSection: React.FC = () => {
         marginTop: "70px",
       }}
     >
-      <h1 className="text-5xl font-extrabold text-gray-800">
+      <h1 className="text-5xl font-extrabold text-gray-800 mt-20">
         Welcome To{" "}
-        <span className="text-blue-600 underline decoration-wavy">HAM</span>
+        <span className="text-blue-600 underline decoration-wavy">HMA</span>
       </h1>
       <h2 className="text-5xl font-extrabold text-gray-800 mt-2">
         Technologies
       </h2>
       <p
-        className="text-gray-600 text-lg max-w-2xl mx-auto mt-6 font-sans"
-        style={{ fontFamily: "Arial, sans-serif" }}
+        className="text-gray-600 text-lg max-w-2xl mx-auto font-sans"
+        style={{
+          fontFamily: "Arial, sans-serif",
+          marginTop: "4rem",
+        }}
       >
         Are you facing difficulties with your website? Do you have a website but
         lack traffic? No need to worry.
