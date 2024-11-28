@@ -32,7 +32,7 @@ const Home: FC = () => {
         <HeroSection />
       </div>
       <div ref={aboutRef}>
-        <AboutUs />
+        <AboutUs scrollToSection={scrollToSection} contactRef={contactRef} />
       </div>
       <div ref={servicesRef}>
         <OurServices />

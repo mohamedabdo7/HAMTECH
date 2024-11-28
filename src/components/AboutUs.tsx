@@ -13,7 +13,12 @@ import CustomButton from "./UI/CustomButton";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const AboutUs: FC = () => {
+interface AboutUsProps {
+  scrollToSection: (ref: React.RefObject<HTMLDivElement>) => void;
+  contactRef: React.RefObject<HTMLDivElement>;
+}
+
+const AboutUs: FC<AboutUsProps> = ({ scrollToSection, contactRef }) => {
   useEffect(() => {
     AOS.init({ duration: 1000, once: false }); // Initialize AOS with desired duration and one-time animation
   }, []);
@@ -91,6 +96,7 @@ const AboutUs: FC = () => {
                 color: "white",
               }}
               className="hover:bg-blue-700"
+              onClick={() => scrollToSection(contactRef)}
             />
           </div>
         </div>
@@ -148,6 +154,7 @@ const AboutUs: FC = () => {
               color: "white",
             }}
             className="hover:bg-blue-700"
+            onClick={() => scrollToSection(contactRef)}
           />
         </div>
       </div>
