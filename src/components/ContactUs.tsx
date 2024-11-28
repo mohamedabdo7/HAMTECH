@@ -22,9 +22,10 @@ const ContactUs: FC = () => {
             className="text-lg leading-relaxed max-w-3xl mx-auto"
             style={{ color: "var(--color-dark-charcoal)" }}
           >
-            Service description example: To buy a plot to build your house, this
-            requires documenting the sale and purchase process in the notarial
-            offices or notary services to register the property in your name.
+            We value your feedback and are here to assist you. Whether you have
+            questions, suggestions, or need support, feel free to reach out to
+            us. Our team is ready to provide the help you need. Simply fill out
+            the contact form, and we’ll get back to you as soon as possible.
           </p>
         </div>
 
